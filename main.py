@@ -18,7 +18,7 @@ list1.append("Price : ")
 list1.append(price[0].text)
 list1.append("Item Detail : ")
 list1.append(soupdesc.get_text(strip=True, separator='\n').split("\n")[2])
-with open('c:/meow/ferrari.txt', 'w') as f:
+with open('ferrari.txt', 'w') as f:
     for line in list1:
         f.write(line)
         f.write('\n')
